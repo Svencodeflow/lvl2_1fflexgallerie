@@ -3,14 +3,16 @@
     padding: 0;
 }
 
+body {
+    border: 10px solid black;
+}
 
 div {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 5vh;
+    justify-content: space-evenly;
+    margin: 5vh 0;
 }
 
 div img {
     width: 30%;
 }
-
